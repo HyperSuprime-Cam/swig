@@ -1,0 +1,9 @@
+#!/bin/bash
+
+. "$EUPS_DIR/lib/eupspkg/functions"
+
+REPOSITORY="git://git.lsstcorp.org/personal/mjuric/eupspkg/external/$PRODUCT.git"
+
+CONFIGURE_OPTIONS="--prefix=$PREFIX --without-php4 --without-pcre"
+
+"$@"
