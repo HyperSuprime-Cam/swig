@@ -1,7 +1,3 @@
-#!/bin/bash
-
-. "$EUPS_DIR/lib/eupspkg.sh"
+# EupsPkg config file. Sourced by 'eupspkg'
 
 CONFIGURE_OPTIONS="--prefix=$PREFIX --without-php4 --without-pcre"
-
-"$@"
