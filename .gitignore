@@ -1,6 +1,7 @@
 *~
 _eupspkg
 .travis.yml
+appveyor.yml
 ANNOUNCE
 CCache/
 CHANGES
